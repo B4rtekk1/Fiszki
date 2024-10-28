@@ -1,9 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Windows.Forms;
 
 namespace Fiszki
 {
@@ -11,60 +10,69 @@ namespace Fiszki
     {
         private Label wordLabel;
         private Label wordTranstaledLabel;
+        private Label categoryLabel;
         private TextBox wordTextBox;
         private TextBox wordTranstaledTextBox;
+        private TextBox categoryTextBox;
         private Button addButton;
         private string placeHolder = "Write here...";
         public string filePath = "flashcards.json";
+
         public CreateFlashcards()
         {
             GenerateMenu();
         }
+
         void GenerateMenu()
         {
-            var flashcards = new List<Test>
+            // Zapis przykładowych fiszek przy pierwszym uruchomieniu
+            if (!File.Exists(filePath))
             {
-                new Test { Word = "Hello", Translation = "Cześć" },
-                new Test { Word = "Goodbye", Translation = "Do widzenia" }
-            };
-            string json = JsonConvert.SerializeObject(flashcards, Formatting.Indented);
+                var flashcards = new List<GetWords>
+                {
+                    new GetWords { Word = "Hello", Translation = "Cześć", Category = "Culture" },
+                    new GetWords { Word = "Goodbye", Translation = "Do widzenia", Category = "Culture" }
+                };
+                string json = JsonConvert.SerializeObject(flashcards, Formatting.Indented);
+                File.WriteAllText(filePath, json);
+            }
 
-
-            // Zapisz JSON do pliku
-            File.WriteAllText(filePath, json);
-
-            MessageBox.Show($"Plik JSON zapisany jako {filePath}");
-
-            this.FormClosing += CreateFlashcards_FormClosing;
             this.Text = "Fiszki";
-            this.Size = new Size(400, 200);
+            this.Size = new Size(500, 250);
 
-            //labele
+            // Label: New phrase
             wordLabel = new Label();
             wordLabel.AutoSize = true;
             wordLabel.Text = "New phrase";
             wordLabel.Left = 50;
             this.Controls.Add(wordLabel);
 
+            // Label: Translated
             wordTranstaledLabel = new Label();
             wordTranstaledLabel.AutoSize = true;
             wordTranstaledLabel.Text = "Translated";
             wordTranstaledLabel.Left = 200;
             this.Controls.Add(wordTranstaledLabel);
 
-            //textboxy
+            // Label: Category
+            categoryLabel = new Label();
+            categoryLabel.AutoSize = true;
+            categoryLabel.Text = "Category";
+            categoryLabel.Left = 350;
+            this.Controls.Add(categoryLabel);
 
+            // TextBox: New phrase
             wordTextBox = new TextBox();
             wordTextBox.Size = new Size(100, 40);
             wordTextBox.Left = 45;
             wordTextBox.Top = 25;
-
             wordTextBox.Text = placeHolder;
             wordTextBox.ForeColor = Color.Gray;
             wordTextBox.Enter += WordTextBox_Enter;
             wordTextBox.Leave += WordTextBox_Leave;
             this.Controls.Add(wordTextBox);
 
+            // TextBox: Translated
             wordTranstaledTextBox = new TextBox();
             wordTranstaledTextBox.Size = new Size(100, 40);
             wordTranstaledTextBox.Left = 200;
@@ -75,37 +83,79 @@ namespace Fiszki
             wordTranstaledTextBox.Leave += WordTranstaledTextBox_Leave;
             this.Controls.Add(wordTranstaledTextBox);
 
-            //button
+            // TextBox: Category
+            categoryTextBox = new TextBox();
+            categoryTextBox.Size = new Size(100, 40);
+            categoryTextBox.Left = 350;
+            categoryTextBox.Top = 25;
+            categoryTextBox.Text = placeHolder;
+            categoryTextBox.ForeColor = Color.Gray;
+            categoryTextBox.Enter += CategoryTextBox_Enter;
+            categoryTextBox.Leave += CategoryTextBox_Leave;
+            this.Controls.Add(categoryTextBox);
+
+            // Button: Add
             addButton = new Button();
-            addButton.AutoSize = true;
-            addButton.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            addButton.Size = new Size(100, 40);
             addButton.Text = "Add";
-            addButton.Top = 75;
-            addButton.Left = 150;
+            addButton.Top = 80;
+            addButton.Left = 200;
             addButton.Click += AddButton_Click;
             this.Controls.Add(addButton);
 
+            this.FormClosing += CreateFlashcards_FormClosing;
         }
 
         private void AddButton_Click(object? sender, EventArgs e)
         {
-            List<Test> flashcards;
-            if (File.Exists(filePath))
+            if (string.IsNullOrWhiteSpace(wordTextBox.Text) || wordTextBox.Text == placeHolder ||
+                string.IsNullOrWhiteSpace(wordTranstaledTextBox.Text) || wordTranstaledTextBox.Text == placeHolder ||
+                string.IsNullOrWhiteSpace(categoryTextBox.Text) || categoryTextBox.Text == placeHolder)
             {
-                string json = File.ReadAllText(filePath);
-                flashcards = JsonConvert.DeserializeObject<List<Test>>(json) ?? new List<Test>();
+                MessageBox.Show("Please fill in all fields before adding a flashcard.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+            List<GetWords> flashcards;
+            try
             {
-                flashcards = new List<Test>(); // jeśli plik nie istnieje, twórz nową listę
+                string json = File.Exists(filePath) ? File.ReadAllText(filePath) : "[]";
+                flashcards = JsonConvert.DeserializeObject<List<GetWords>>(json) ?? new List<GetWords>();
             }
-            flashcards.Add(new Test { Word = wordTextBox.Text, Translation = wordTranstaledTextBox.Text });
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error reading JSON file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-            // Serializacja i zapisanie zaktualizowanej listy do pliku
-            string updatedJson = JsonConvert.SerializeObject(flashcards, Formatting.Indented);
-            File.WriteAllText(filePath, updatedJson);
+            bool exists = flashcards.Any(f =>
+        f.Word.Equals(wordTextBox.Text, StringComparison.OrdinalIgnoreCase) &&
+        f.Translation.Equals(wordTranstaledTextBox.Text, StringComparison.OrdinalIgnoreCase) &&
+        f.Category.Equals(categoryTextBox.Text, StringComparison.OrdinalIgnoreCase));
 
-            MessageBox.Show($"Zaktualizowany plik JSON zapisany jako {filePath}");
+            if (exists)
+            {
+                MessageBox.Show("This flashcard already exists in the database.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            flashcards.Add(new GetWords
+            {
+                Word = wordTextBox.Text,
+                Translation = wordTranstaledTextBox.Text,
+                Category = categoryTextBox.Text
+            });
+
+            try
+            {
+                string updatedJson = JsonConvert.SerializeObject(flashcards, Formatting.Indented);
+                File.WriteAllText(filePath, updatedJson);
+                MessageBox.Show($"Flashcard added to {filePath}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error saving to JSON file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CreateFlashcards_FormClosing(object? sender, FormClosingEventArgs e)
@@ -148,6 +198,23 @@ namespace Fiszki
                 wordTextBox.ForeColor = Color.Black;
             }
         }
+
+        private void CategoryTextBox_Leave(object? sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(categoryTextBox.Text))
+            {
+                categoryTextBox.Text = placeHolder;
+                categoryTextBox.ForeColor = Color.Gray;
+            }
+        }
+
+        private void CategoryTextBox_Enter(object? sender, EventArgs e)
+        {
+            if (categoryTextBox.Text == placeHolder)
+            {
+                categoryTextBox.Text = "";
+                categoryTextBox.ForeColor = Color.Black;
+            }
+        }
     }
 }
-

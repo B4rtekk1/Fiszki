@@ -1,0 +1,32 @@
+[
+  {
+    "Word": "Hello",
+    "Translation": "Cześć",
+    "Category": "Culture"
+  },
+  {
+    "Word": "Goodbye",
+    "Translation": "Do widzenia",
+    "Category": "Culture"
+  },
+  {
+    "Word": "Samolot",
+    "Translation": "Plane",
+    "Category": "Transport"
+  },
+  {
+    "Word": "Samochód",
+    "Translation": "Car",
+    "Category": "Transport"
+  },
+  {
+    "Word": "Jabłko",
+    "Translation": "Apple",
+    "Category": "Food"
+  },
+  {
+    "Word": "Samochód",
+    "Translation": "Automobil",
+    "Category": "Transport"
+  }
+]
