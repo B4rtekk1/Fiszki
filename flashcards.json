@@ -1,32 +1,2142 @@
 [
   {
-    "Word": "Hello",
-    "Translation": "Cześć",
-    "Category": "Culture"
+    "Word": "kot",
+    "Translation": "cat",
+    "Category": "Animals"
   },
   {
-    "Word": "Goodbye",
-    "Translation": "Do widzenia",
-    "Category": "Culture"
+    "Word": "pies",
+    "Translation": "dog",
+    "Category": "Animals"
   },
   {
-    "Word": "Samolot",
-    "Translation": "Plane",
-    "Category": "Transport"
+    "Word": "dom",
+    "Translation": "house",
+    "Category": "Objects"
   },
   {
-    "Word": "Samochód",
-    "Translation": "Car",
-    "Category": "Transport"
+    "Word": "samochód",
+    "Translation": "car",
+    "Category": "Objects"
   },
   {
-    "Word": "Jabłko",
-    "Translation": "Apple",
+    "Word": "drzewo",
+    "Translation": "tree",
+    "Category": "Nature"
+  },
+  {
+    "Word": "rzeka",
+    "Translation": "river",
+    "Category": "Nature"
+  },
+  {
+    "Word": "książka",
+    "Translation": "book",
+    "Category": "Objects"
+  },
+  {
+    "Word": "komputer",
+    "Translation": "computer",
+    "Category": "Technology"
+  },
+  {
+    "Word": "telefon",
+    "Translation": "phone",
+    "Category": "Technology"
+  },
+  {
+    "Word": "stół",
+    "Translation": "table",
+    "Category": "Objects"
+  },
+  {
+    "Word": "krzesło",
+    "Translation": "chair",
+    "Category": "Objects"
+  },
+  {
+    "Word": "woda",
+    "Translation": "water",
+    "Category": "Nature"
+  },
+  {
+    "Word": "ogień",
+    "Translation": "fire",
+    "Category": "Nature"
+  },
+  {
+    "Word": "jedzenie",
+    "Translation": "food",
+    "Category": "Objects"
+  },
+  {
+    "Word": "muzyka",
+    "Translation": "music",
+    "Category": "Art"
+  },
+  {
+    "Word": "sztuka",
+    "Translation": "art",
+    "Category": "Art"
+  },
+  {
+    "Word": "miłość",
+    "Translation": "love",
+    "Category": "Emotions"
+  },
+  {
+    "Word": "szczęście",
+    "Translation": "happiness",
+    "Category": "Emotions"
+  },
+  {
+    "Word": "smutek",
+    "Translation": "sadness",
+    "Category": "Emotions"
+  },
+  {
+    "Word": "szkoła",
+    "Translation": "school",
+    "Category": "Places"
+  },
+  {
+    "Word": "nauczyciel",
+    "Translation": "teacher",
+    "Category": "People"
+  },
+  {
+    "Word": "uczeń",
+    "Translation": "student",
+    "Category": "People"
+  },
+  {
+    "Word": "przyjaciel",
+    "Translation": "friend",
+    "Category": "People"
+  },
+  {
+    "Word": "rodzina",
+    "Translation": "family",
+    "Category": "People"
+  },
+  {
+    "Word": "miasto",
+    "Translation": "city",
+    "Category": "Places"
+  },
+  {
+    "Word": "kraj",
+    "Translation": "country",
+    "Category": "Places"
+  },
+  {
+    "Word": "świat",
+    "Translation": "world",
+    "Category": "Geography"
+  },
+  {
+    "Word": "wszechświat",
+    "Translation": "universe",
+    "Category": "Geography"
+  },
+  {
+    "Word": "niebo",
+    "Translation": "sky",
+    "Category": "Nature"
+  },
+  {
+    "Word": "słońce",
+    "Translation": "sun",
+    "Category": "Nature"
+  },
+  {
+    "Word": "księżyc",
+    "Translation": "moon",
+    "Category": "Nature"
+  },
+  {
+    "Word": "gwiazda",
+    "Translation": "star",
+    "Category": "Nature"
+  },
+  {
+    "Word": "chmura",
+    "Translation": "cloud",
+    "Category": "Nature"
+  },
+  {
+    "Word": "deszcz",
+    "Translation": "rain",
+    "Category": "Nature"
+  },
+  {
+    "Word": "śnieg",
+    "Translation": "snow",
+    "Category": "Nature"
+  },
+  {
+    "Word": "wiatr",
+    "Translation": "wind",
+    "Category": "Nature"
+  },
+  {
+    "Word": "ocean",
+    "Translation": "ocean",
+    "Category": "Nature"
+  },
+  {
+    "Word": "góra",
+    "Translation": "mountain",
+    "Category": "Nature"
+  },
+  {
+    "Word": "dolina",
+    "Translation": "valley",
+    "Category": "Nature"
+  },
+  {
+    "Word": "pustynia",
+    "Translation": "desert",
+    "Category": "Nature"
+  },
+  {
+    "Word": "las",
+    "Translation": "forest",
+    "Category": "Nature"
+  },
+  {
+    "Word": "ogród",
+    "Translation": "garden",
+    "Category": "Nature"
+  },
+  {
+    "Word": "plaża",
+    "Translation": "beach",
+    "Category": "Nature"
+  },
+  {
+    "Word": "ryba",
+    "Translation": "fish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ptak",
+    "Translation": "bird",
+    "Category": "Animals"
+  },
+  {
+    "Word": "lew",
+    "Translation": "lion",
+    "Category": "Animals"
+  },
+  {
+    "Word": "tygrys",
+    "Translation": "tiger",
+    "Category": "Animals"
+  },
+  {
+    "Word": "słoń",
+    "Translation": "elephant",
+    "Category": "Animals"
+  },
+  {
+    "Word": "królik",
+    "Translation": "rabbit",
+    "Category": "Animals"
+  },
+  {
+    "Word": "koń",
+    "Translation": "horse",
+    "Category": "Animals"
+  },
+  {
+    "Word": "krowa",
+    "Translation": "cow",
+    "Category": "Animals"
+  },
+  {
+    "Word": "owca",
+    "Translation": "sheep",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kurczak",
+    "Translation": "chicken",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kaczka",
+    "Translation": "duck",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wąż",
+    "Translation": "snake",
+    "Category": "Animals"
+  },
+  {
+    "Word": "żaba",
+    "Translation": "frog",
+    "Category": "Animals"
+  },
+  {
+    "Word": "jaszczurka",
+    "Translation": "lizard",
+    "Category": "Animals"
+  },
+  {
+    "Word": "pająk",
+    "Translation": "spider",
+    "Category": "Animals"
+  },
+  {
+    "Word": "mrówka",
+    "Translation": "ant",
+    "Category": "Animals"
+  },
+  {
+    "Word": "pszczoła",
+    "Translation": "bee",
+    "Category": "Animals"
+  },
+  {
+    "Word": "motyl",
+    "Translation": "butterfly",
+    "Category": "Animals"
+  },
+  {
+    "Word": "niedźwiedź",
+    "Translation": "bear",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wilk",
+    "Translation": "wolf",
+    "Category": "Animals"
+  },
+  {
+    "Word": "żółw",
+    "Translation": "turtle",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wiewiórka",
+    "Translation": "squirrel",
+    "Category": "Animals"
+  },
+  {
+    "Word": "panda",
+    "Translation": "panda",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kangur",
+    "Translation": "kangaroo",
+    "Category": "Animals"
+  },
+  {
+    "Word": "zebra",
+    "Translation": "zebra",
+    "Category": "Animals"
+  },
+  {
+    "Word": "pingwin",
+    "Translation": "penguin",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ośmiornica",
+    "Translation": "octopus",
+    "Category": "Animals"
+  },
+  {
+    "Word": "rekin",
+    "Translation": "shark",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wieloryb",
+    "Translation": "whale",
+    "Category": "Animals"
+  },
+  {
+    "Word": "delfin",
+    "Translation": "dolphin",
+    "Category": "Animals"
+  },
+  {
+    "Word": "krab",
+    "Translation": "crab",
+    "Category": "Animals"
+  },
+  {
+    "Word": "muszla",
+    "Translation": "shell",
+    "Category": "Nature"
+  },
+  {
+    "Word": "skała",
+    "Translation": "rock",
+    "Category": "Nature"
+  },
+  {
+    "Word": "piasek",
+    "Translation": "sand",
+    "Category": "Nature"
+  },
+  {
+    "Word": "gleba",
+    "Translation": "soil",
+    "Category": "Nature"
+  },
+  {
+    "Word": "wzgórze",
+    "Translation": "hill",
+    "Category": "Nature"
+  },
+  {
+    "Word": "kanion",
+    "Translation": "canyon",
+    "Category": "Nature"
+  },
+  {
+    "Word": "klif",
+    "Translation": "cliff",
+    "Category": "Nature"
+  },
+  {
+    "Word": "wyspa",
+    "Translation": "island",
+    "Category": "Nature"
+  },
+  {
+    "Word": "jezioro",
+    "Translation": "lake",
+    "Category": "Nature"
+  },
+  {
+    "Word": "staw",
+    "Translation": "pond",
+    "Category": "Nature"
+  },
+  {
+    "Word": "wulkan",
+    "Translation": "volcano",
+    "Category": "Nature"
+  },
+  {
+    "Word": "trzęsienie ziemi",
+    "Translation": "earthquake",
+    "Category": "Nature"
+  },
+  {
+    "Word": "tsunami",
+    "Translation": "tsunami",
+    "Category": "Nature"
+  },
+  {
+    "Word": "burza",
+    "Translation": "storm",
+    "Category": "Nature"
+  },
+  {
+    "Word": "huragan",
+    "Translation": "hurricane",
+    "Category": "Nature"
+  },
+  {
+    "Word": "tornado",
+    "Translation": "tornado",
+    "Category": "Nature"
+  },
+  {
+    "Word": "powódź",
+    "Translation": "flood",
+    "Category": "Nature"
+  },
+  {
+    "Word": "susza",
+    "Translation": "drought",
+    "Category": "Nature"
+  },
+  {
+    "Word": "tęcza",
+    "Translation": "rainbow",
+    "Category": "Nature"
+  },
+  {
+    "Word": "biodra morska",
+    "Translation": "starfish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "meduza",
+    "Translation": "jellyfish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wodorost",
+    "Translation": "seaweed",
+    "Category": "Plants"
+  },
+  {
+    "Word": "kwiat",
+    "Translation": "flower",
+    "Category": "Plants"
+  },
+  {
+    "Word": "trawa",
+    "Translation": "grass",
+    "Category": "Plants"
+  },
+  {
+    "Word": "liść",
+    "Translation": "leaf",
+    "Category": "Plants"
+  },
+  {
+    "Word": "korzeń",
+    "Translation": "root",
+    "Category": "Plants"
+  },
+  {
+    "Word": "kora",
+    "Translation": "bark",
+    "Category": "Plants"
+  },
+  {
+    "Word": "owoc",
+    "Translation": "fruit",
+    "Category": "Plants"
+  },
+  {
+    "Word": "warzywo",
+    "Translation": "vegetable",
+    "Category": "Plants"
+  },
+  {
+    "Word": "nasiono",
+    "Translation": "seed",
+    "Category": "Plants"
+  },
+  {
+    "Word": "zioło",
+    "Translation": "herb",
+    "Category": "Plants"
+  },
+  {
+    "Word": "przyprawa",
+    "Translation": "spice",
+    "Category": "Plants"
+  },
+  {
+    "Word": "zboże",
+    "Translation": "cereal",
+    "Category": "Plants"
+  },
+  {
+    "Word": "ziarno",
+    "Translation": "grain",
+    "Category": "Plants"
+  },
+  {
+    "Word": "mleko",
+    "Translation": "milk",
     "Category": "Food"
   },
   {
-    "Word": "Samochód",
-    "Translation": "Automobil",
-    "Category": "Transport"
+    "Word": "chleb",
+    "Translation": "bread",
+    "Category": "Food"
+  },
+  {
+    "Word": "ciasto",
+    "Translation": "cake",
+    "Category": "Food"
+  },
+  {
+    "Word": "cukier",
+    "Translation": "sugar",
+    "Category": "Food"
+  },
+  {
+    "Word": "sol",
+    "Translation": "salt",
+    "Category": "Food"
+  },
+  {
+    "Word": "masło",
+    "Translation": "butter",
+    "Category": "Food"
+  },
+  {
+    "Word": "ser",
+    "Translation": "cheese",
+    "Category": "Food"
+  },
+  {
+    "Word": "jajko",
+    "Translation": "egg",
+    "Category": "Food"
+  },
+  {
+    "Word": "mięso",
+    "Translation": "meat",
+    "Category": "Food"
+  },
+  {
+    "Word": "ryż",
+    "Translation": "rice",
+    "Category": "Food"
+  },
+  {
+    "Word": "makaron",
+    "Translation": "pasta",
+    "Category": "Food"
+  },
+  {
+    "Word": "słodycze",
+    "Translation": "sweets",
+    "Category": "Food"
+  },
+  {
+    "Word": "napój",
+    "Translation": "drink",
+    "Category": "Food"
+  },
+  {
+    "Word": "herbata",
+    "Translation": "tea",
+    "Category": "Food"
+  },
+  {
+    "Word": "kawa",
+    "Translation": "coffee",
+    "Category": "Food"
+  },
+  {
+    "Word": "sok",
+    "Translation": "juice",
+    "Category": "Food"
+  },
+  {
+    "Word": "warzywa",
+    "Translation": "vegetables",
+    "Category": "Food"
+  },
+  {
+    "Word": "owoce",
+    "Translation": "fruits",
+    "Category": "Food"
+  },
+  {
+    "Word": "zupa",
+    "Translation": "soup",
+    "Category": "Food"
+  },
+  {
+    "Word": "sałatka",
+    "Translation": "salad",
+    "Category": "Food"
+  },
+  {
+    "Word": "przekąska",
+    "Translation": "snack",
+    "Category": "Food"
+  },
+  {
+    "Word": "obiad",
+    "Translation": "lunch",
+    "Category": "Food"
+  },
+  {
+    "Word": "kolacja",
+    "Translation": "dinner",
+    "Category": "Food"
+  },
+  {
+    "Word": "śniadanie",
+    "Translation": "breakfast",
+    "Category": "Food"
+  },
+  {
+    "Word": "stołowanie",
+    "Translation": "dining",
+    "Category": "Food"
+  },
+  {
+    "Word": "pyszny",
+    "Translation": "delicious",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "słony",
+    "Translation": "salty",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "słodki",
+    "Translation": "sweet",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "kwaśny",
+    "Translation": "sour",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "gorący",
+    "Translation": "hot",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "zimny",
+    "Translation": "cold",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "ciężki",
+    "Translation": "heavy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "lekki",
+    "Translation": "light",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "wielki",
+    "Translation": "big",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "mały",
+    "Translation": "small",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "szybki",
+    "Translation": "fast",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "wolny",
+    "Translation": "slow",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "piękny",
+    "Translation": "beautiful",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "brzydki",
+    "Translation": "ugly",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "inteligentny",
+    "Translation": "smart",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "mądry",
+    "Translation": "wise",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "zły",
+    "Translation": "bad",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "dobry",
+    "Translation": "good",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "trudny",
+    "Translation": "difficult",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "łatwy",
+    "Translation": "easy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "czysty",
+    "Translation": "clean",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "brudny",
+    "Translation": "dirty",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "nowy",
+    "Translation": "new",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "stary",
+    "Translation": "old",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "świeży",
+    "Translation": "fresh",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "gorzki",
+    "Translation": "bitter",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "soczysty",
+    "Translation": "juicy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "twardy",
+    "Translation": "hard",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "miękki",
+    "Translation": "soft",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "szybko",
+    "Translation": "quickly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "powoli",
+    "Translation": "slowly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "cicho",
+    "Translation": "quietly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "głośno",
+    "Translation": "loudly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "ładnie",
+    "Translation": "nicely",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "brzydko",
+    "Translation": "ugly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "dobrze",
+    "Translation": "well",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "źle",
+    "Translation": "badly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "późno",
+    "Translation": "late",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wcześnie",
+    "Translation": "early",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "często",
+    "Translation": "often",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "rzadko",
+    "Translation": "rarely",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "zawsze",
+    "Translation": "always",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "nigdy",
+    "Translation": "never",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wczoraj",
+    "Translation": "yesterday",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "dziś",
+    "Translation": "today",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "jutro",
+    "Translation": "tomorrow",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wieczorem",
+    "Translation": "in the evening",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "rano",
+    "Translation": "in the morning",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "popołudniu",
+    "Translation": "in the afternoon",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "około",
+    "Translation": "about",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "około",
+    "Translation": "around",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wkrótce",
+    "Translation": "soon",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "może",
+    "Translation": "maybe",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "na pewno",
+    "Translation": "surely",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "prawdopodobnie",
+    "Translation": "probably",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "chociaż",
+    "Translation": "although",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "ponieważ",
+    "Translation": "because",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "jeśli",
+    "Translation": "if",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "choć",
+    "Translation": "though",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "więc",
+    "Translation": "so",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "ale",
+    "Translation": "but",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "i",
+    "Translation": "and",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "lub",
+    "Translation": "or",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "ani",
+    "Translation": "nor",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "zanim",
+    "Translation": "before",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "gdy",
+    "Translation": "when",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "jak",
+    "Translation": "as",
+    "Category": "Conjunctions"
+  },
+  {
+    "Word": "przez",
+    "Translation": "through",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "do",
+    "Translation": "to",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "na",
+    "Translation": "on",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "w",
+    "Translation": "in",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "z",
+    "Translation": "with",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "od",
+    "Translation": "from",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "bez",
+    "Translation": "without",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "przed",
+    "Translation": "before",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "za",
+    "Translation": "behind",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "między",
+    "Translation": "between",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "przy",
+    "Translation": "by",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "na przeciwko",
+    "Translation": "opposite",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "wokół",
+    "Translation": "around",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "pod",
+    "Translation": "under",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "nad",
+    "Translation": "over",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "wśród",
+    "Translation": "among",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "poza",
+    "Translation": "outside",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "na dole",
+    "Translation": "below",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "na górze",
+    "Translation": "above",
+    "Category": "Prepositions"
+  },
+  {
+    "Word": "z powrotem",
+    "Translation": "back",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "w górę",
+    "Translation": "up",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "w dół",
+    "Translation": "down",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "sama",
+    "Translation": "alone",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "szybko",
+    "Translation": "quickly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "mocno",
+    "Translation": "strongly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "lekko",
+    "Translation": "lightly",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "delikatnie",
+    "Translation": "gently",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wcześnie",
+    "Translation": "early",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "późno",
+    "Translation": "late",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "długo",
+    "Translation": "long",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "krótko",
+    "Translation": "short",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "razem",
+    "Translation": "together",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "osobno",
+    "Translation": "separately",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "tylko",
+    "Translation": "only",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "właśnie",
+    "Translation": "just",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "cały",
+    "Translation": "whole",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "częściowo",
+    "Translation": "partially",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "ostatecznie",
+    "Translation": "ultimately",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "absolutnie",
+    "Translation": "absolutely",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "prawie",
+    "Translation": "almost",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "tak",
+    "Translation": "yes",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "nie",
+    "Translation": "no",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "może",
+    "Translation": "maybe",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "chociaż",
+    "Translation": "though",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "ach",
+    "Translation": "oh",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "ej",
+    "Translation": "hey",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "cześć",
+    "Translation": "hi",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "do widzenia",
+    "Translation": "goodbye",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "przykro mi",
+    "Translation": "I'm sorry",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "dziękuję",
+    "Translation": "thank you",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "proszę",
+    "Translation": "please",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "brawo",
+    "Translation": "well done",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "czyż nie?",
+    "Translation": "isn't it?",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "no cóż",
+    "Translation": "well",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "prawda",
+    "Translation": "truth",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "to prawda",
+    "Translation": "that's true",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "wszystko w porządku",
+    "Translation": "all good",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "na pewno",
+    "Translation": "for sure",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "nie ma sprawy",
+    "Translation": "no problem",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "zobaczymy",
+    "Translation": "we'll see",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "nigdy",
+    "Translation": "never",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "nawet",
+    "Translation": "even",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "tylko",
+    "Translation": "just",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "wszystko",
+    "Translation": "everything",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "może",
+    "Translation": "perhaps",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "możliwe",
+    "Translation": "possible",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "na pewno",
+    "Translation": "certainly",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "mam nadzieję",
+    "Translation": "I hope",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "to zależy",
+    "Translation": "it depends",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "tak sądzę",
+    "Translation": "I think so",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "wtedy",
+    "Translation": "then",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "tak samo",
+    "Translation": "same",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wszystko",
+    "Translation": "all",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "wszystko w porządku",
+    "Translation": "everything alright",
+    "Category": "Adverbs"
+  },
+  {
+    "Word": "nie wiem",
+    "Translation": "I don't know",
+    "Category": "Interjections"
+  },
+  {
+    "Word": "taki",
+    "Translation": "such",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "długość",
+    "Translation": "length",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "szerokość",
+    "Translation": "width",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "wysokość",
+    "Translation": "height",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "ciężar",
+    "Translation": "weight",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "objętość",
+    "Translation": "volume",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "sprawność",
+    "Translation": "efficiency",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "ogniwo",
+    "Translation": "cell",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "rodzina",
+    "Translation": "family",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "dzieci",
+    "Translation": "children",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "kwiat",
+    "Translation": "flower",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "drzewo",
+    "Translation": "tree",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "krzew",
+    "Translation": "shrub",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "pąk",
+    "Translation": "bud",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "liść",
+    "Translation": "leaf",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "korona",
+    "Translation": "crown",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "bark",
+    "Translation": "bark",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "korzeń",
+    "Translation": "root",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "biodra",
+    "Translation": "hips",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "tęcza",
+    "Translation": "rainbow",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "słońce",
+    "Translation": "sun",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "księżyc",
+    "Translation": "moon",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "gwiazda",
+    "Translation": "star",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "planeta",
+    "Translation": "planet",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "kometa",
+    "Translation": "comet",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "asteroid",
+    "Translation": "asteroid",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "rakieta",
+    "Translation": "rocket",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "gwiazda",
+    "Translation": "star",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "niebo",
+    "Translation": "sky",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "chmura",
+    "Translation": "cloud",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "wiatr",
+    "Translation": "wind",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "burza",
+    "Translation": "storm",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "huragan",
+    "Translation": "hurricane",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "tornado",
+    "Translation": "tornado",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "powódź",
+    "Translation": "flood",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "susza",
+    "Translation": "drought",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "ocean",
+    "Translation": "ocean",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "morze",
+    "Translation": "sea",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "rzeka",
+    "Translation": "river",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "jezioro",
+    "Translation": "lake",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "zbiornik",
+    "Translation": "reservoir",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "góra",
+    "Translation": "mountain",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "wzgórze",
+    "Translation": "hill",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "dolina",
+    "Translation": "valley",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "wyspa",
+    "Translation": "island",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "pustynia",
+    "Translation": "desert",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "ląd",
+    "Translation": "land",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "świeży",
+    "Translation": "fresh",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "powietrze",
+    "Translation": "air",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "ziemia",
+    "Translation": "earth",
+    "Category": "Nouns"
+  },
+  {
+    "Word": "słoń",
+    "Translation": "elephant",
+    "Category": "Animals"
+  },
+  {
+    "Word": "lew",
+    "Translation": "lion",
+    "Category": "Animals"
+  },
+  {
+    "Word": "tygrys",
+    "Translation": "tiger",
+    "Category": "Animals"
+  },
+  {
+    "Word": "zebra",
+    "Translation": "zebra",
+    "Category": "Animals"
+  },
+  {
+    "Word": "żółw",
+    "Translation": "turtle",
+    "Category": "Animals"
+  },
+  {
+    "Word": "sowa",
+    "Translation": "owl",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ptak",
+    "Translation": "bird",
+    "Category": "Animals"
+  },
+  {
+    "Word": "pies",
+    "Translation": "dog",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kot",
+    "Translation": "cat",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ryba",
+    "Translation": "fish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "mysz",
+    "Translation": "mouse",
+    "Category": "Animals"
+  },
+  {
+    "Word": "królik",
+    "Translation": "rabbit",
+    "Category": "Animals"
+  },
+  {
+    "Word": "koza",
+    "Translation": "goat",
+    "Category": "Animals"
+  },
+  {
+    "Word": "krowa",
+    "Translation": "cow",
+    "Category": "Animals"
+  },
+  {
+    "Word": "świnia",
+    "Translation": "pig",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kurczak",
+    "Translation": "chicken",
+    "Category": "Animals"
+  },
+  {
+    "Word": "bóbr",
+    "Translation": "beaver",
+    "Category": "Animals"
+  },
+  {
+    "Word": "jeż",
+    "Translation": "hedgehog",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ryś",
+    "Translation": "lynx",
+    "Category": "Animals"
+  },
+  {
+    "Word": "orzeł",
+    "Translation": "eagle",
+    "Category": "Animals"
+  },
+  {
+    "Word": "słowik",
+    "Translation": "nightingale",
+    "Category": "Animals"
+  },
+  {
+    "Word": "goryl",
+    "Translation": "gorilla",
+    "Category": "Animals"
+  },
+  {
+    "Word": "zebra",
+    "Translation": "zebra",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ryba",
+    "Translation": "fish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "kura",
+    "Translation": "hen",
+    "Category": "Animals"
+  },
+  {
+    "Word": "słoń",
+    "Translation": "elephant",
+    "Category": "Animals"
+  },
+  {
+    "Word": "zając",
+    "Translation": "hare",
+    "Category": "Animals"
+  },
+  {
+    "Word": "świnia",
+    "Translation": "pig",
+    "Category": "Animals"
+  },
+  {
+    "Word": "słoń",
+    "Translation": "elephant",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wielbłąd",
+    "Translation": "camel",
+    "Category": "Animals"
+  },
+  {
+    "Word": "konik",
+    "Translation": "pony",
+    "Category": "Animals"
+  },
+  {
+    "Word": "krokodyl",
+    "Translation": "crocodile",
+    "Category": "Animals"
+  },
+  {
+    "Word": "jaszczurka",
+    "Translation": "lizard",
+    "Category": "Animals"
+  },
+  {
+    "Word": "żaba",
+    "Translation": "frog",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wąż",
+    "Translation": "snake",
+    "Category": "Animals"
+  },
+  {
+    "Word": "panda",
+    "Translation": "panda",
+    "Category": "Animals"
+  },
+  {
+    "Word": "tiger",
+    "Translation": "tiger",
+    "Category": "Animals"
+  },
+  {
+    "Word": "surykatka",
+    "Translation": "meerkat",
+    "Category": "Animals"
+  },
+  {
+    "Word": "szympans",
+    "Translation": "chimpanzee",
+    "Category": "Animals"
+  },
+  {
+    "Word": "flaming",
+    "Translation": "flamingo",
+    "Category": "Animals"
+  },
+  {
+    "Word": "lwy",
+    "Translation": "lions",
+    "Category": "Animals"
+  },
+  {
+    "Word": "panda",
+    "Translation": "panda",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wieloryb",
+    "Translation": "whale",
+    "Category": "Animals"
+  },
+  {
+    "Word": "delfin",
+    "Translation": "dolphin",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wieloryb",
+    "Translation": "whale",
+    "Category": "Animals"
+  },
+  {
+    "Word": "rekin",
+    "Translation": "shark",
+    "Category": "Animals"
+  },
+  {
+    "Word": "meduza",
+    "Translation": "jellyfish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "starfish",
+    "Translation": "starfish",
+    "Category": "Animals"
+  },
+  {
+    "Word": "węgorz",
+    "Translation": "eel",
+    "Category": "Animals"
+  },
+  {
+    "Word": "muszka",
+    "Translation": "fly",
+    "Category": "Animals"
+  },
+  {
+    "Word": "motyl",
+    "Translation": "butterfly",
+    "Category": "Animals"
+  },
+  {
+    "Word": "pająk",
+    "Translation": "spider",
+    "Category": "Animals"
+  },
+  {
+    "Word": "owad",
+    "Translation": "insect",
+    "Category": "Animals"
+  },
+  {
+    "Word": "płaz",
+    "Translation": "amphibian",
+    "Category": "Animals"
+  },
+  {
+    "Word": "gad",
+    "Translation": "reptile",
+    "Category": "Animals"
+  },
+  {
+    "Word": "ptak",
+    "Translation": "bird",
+    "Category": "Animals"
+  },
+  {
+    "Word": "skorpion",
+    "Translation": "scorpion",
+    "Category": "Animals"
+  },
+  {
+    "Word": "wąż",
+    "Translation": "snake",
+    "Category": "Animals"
+  },
+  {
+    "Word": "motyl",
+    "Translation": "butterfly",
+    "Category": "Animals"
+  },
+  {
+    "Word": "mucha",
+    "Translation": "fly",
+    "Category": "Animals"
+  },
+  {
+    "Word": "komar",
+    "Translation": "mosquito",
+    "Category": "Animals"
+  },
+  {
+    "Word": "młody",
+    "Translation": "young",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "stary",
+    "Translation": "old",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "mały",
+    "Translation": "small",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "duży",
+    "Translation": "big",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "szybki",
+    "Translation": "fast",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "wolny",
+    "Translation": "slow",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "cichy",
+    "Translation": "quiet",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "głośny",
+    "Translation": "loud",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "piękny",
+    "Translation": "beautiful",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "brzydki",
+    "Translation": "ugly",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "nowy",
+    "Translation": "new",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "stary",
+    "Translation": "old",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "fajny",
+    "Translation": "cool",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "drogi",
+    "Translation": "expensive",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "tani",
+    "Translation": "cheap",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "bogaty",
+    "Translation": "rich",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "biedny",
+    "Translation": "poor",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "inteligentny",
+    "Translation": "intelligent",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "głupi",
+    "Translation": "stupid",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "silny",
+    "Translation": "strong",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "słaby",
+    "Translation": "weak",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "szczęśliwy",
+    "Translation": "happy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "smutny",
+    "Translation": "sad",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "chory",
+    "Translation": "sick",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "zdrowy",
+    "Translation": "healthy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "szlachetny",
+    "Translation": "noble",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "zły",
+    "Translation": "bad",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "prosty",
+    "Translation": "simple",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "trudny",
+    "Translation": "difficult",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "łatwy",
+    "Translation": "easy",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "krótki",
+    "Translation": "short",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "prawdziwy",
+    "Translation": "true",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "fałszywy",
+    "Translation": "false",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "rozważny",
+    "Translation": "thoughtful",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "głęboki",
+    "Translation": "deep",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "płytki",
+    "Translation": "shallow",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "trwały",
+    "Translation": "durable",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "czysty",
+    "Translation": "clean",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "brudny",
+    "Translation": "dirty",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "czysty",
+    "Translation": "clear",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "słodki",
+    "Translation": "sweet",
+    "Category": "Adjectives"
+  },
+  {
+    "Word": "Lalka",
+    "Translation": "Doll",
+    "Category": "Something"
   }
 ]
